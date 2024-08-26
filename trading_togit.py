@@ -157,7 +157,7 @@ class StockTrading:
         plt.ylabel('Portfolio Value')
         plt.show()
 
-trader = StockTrading("BP", 10000)
+trader = StockTrading("AAPL", 10000)
 trader.stock_trend("2019-08-01", "2024-08-01")
 trader.ma_crossover("2019-08-01", "2024-08-01", 5)
 trader.mean_reversion("2024-02-01", "2024-08-01", 0.5, 100)
